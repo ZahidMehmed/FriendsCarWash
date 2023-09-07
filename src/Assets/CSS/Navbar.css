@@ -1,0 +1,43 @@
+.NavBar{
+    /* background-color: rgb(241, 128, 128); */
+    background-color: #fff;
+}
+
+/* color: #263788; */
+
+.appoint{
+    border: 2px solid #2db7ff;
+    background-color: #2db7ff;
+    color: white;
+    border-radius: 100px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Segoe UI sans-serif;
+}
+.appoint:hover{
+    background: none;
+   color: #2db7ff;
+   border: 2px solid #2db7ff;
+}
+.Contact-Icon{
+color: orange;
+font-size: 26px;
+}
+.nav-link{
+    font-family: Segoe UI sans-serif;
+    color: #263788;
+    font-size: 18px;
+    font-weight: 600;
+}
+.img-fluid{
+    width: 100px;
+}
+.nav-link:hover{
+    
+    color: #2db7ff;
+   
+}

@@ -1,0 +1,150 @@
+/* .linear-gradient-top{
+    background-image: linear-gradient(to right,  #263788 ,#2db7ff);
+    position: absolute;
+    z-index: 0; width: 100%; opacity: 0.28;
+    height: 30rem;
+   } */
+
+.Top-Background {
+    width: 100%;
+    background-image: url('../Images/Carwash3.jpg');
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .8;
+    height: 30rem;
+}
+
+.mynavlink {
+    font-family: Segoe UI sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 115%;
+    margin-bottom: 0px;
+  
+    /* or 28px */
+    color: #fff;
+
+}
+
+.mynavlink:hover {
+    color: #2db7ff;
+    cursor: pointer;
+}
+
+.Heading {
+    font-family: Segoe UI sans-serif;
+    font-weight: 600;
+    font-size: 68px;
+    line-height: 115%;
+    margin-bottom: 0px;
+    /* or 28px */
+    color: #fff;
+
+}
+
+
+.Top-Background-Icon {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 0px;
+    /* margin-left: 5px;
+    margin-right: 5px; */
+}
+
+
+.Gallery-Body{
+    position: absolute;
+    z-index: 1;
+}
+.WashCard-title{
+    font-family: Segoe UI sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 105%;
+    /* or 28px */
+    color: #fff
+}
+
+.Galley-Card-Image{
+    background: linear-gradient(to right, #263788, #2db7ff);
+    z-index: 2;
+}
+.wash-icon{
+background-color: #fff; padding: 10px;
+color: #263788;
+font-size: 54px;
+border-radius: 50%;
+}
+
+.wash-icon:hover{
+    background-color:#263788; padding: 10px;
+    color:#fff;
+    font-size: 54px;
+    border-radius: 50%;
+    }
+
+    .Gallery-Heading h5{
+    
+            font-family: Segoe UI sans-serif;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 115%;
+            /* or 28px */
+            color: #263788;
+            margin-bottom: 0px;
+            margin-top: -15px;
+    }
+    .vidio{
+        width: 100%;
+    }
+
+    .footer{
+        background-color: #263788;
+    }
+    .footer-icon{
+font-size: 40px;
+background-color: #fff;
+border-radius: 50px;
+padding: 10px;
+color: #263788;
+margin: 0px;
+    }
+    .Hours-Time p{
+margin-bottom: 0px;
+    }
+
+    .footer-content h5{
+        font-family: Segoe UI sans-serif;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 115%;
+        margin-bottom: 0px;
+        margin-left: 15px;
+        /* or 28px */
+        color: #fff;
+    }
+
+    .footer-content p{
+        font-family: Segoe UI sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 115%;
+        margin-bottom: 0px;
+        margin-left: 15px;
+        color: #62718d;
+    }
+    .Newsletter-Email input {
+        background: none;
+        border: none;
+        text-align: center;
+        border-radius: 0px;
+        font-family: Segoe UI sans-serif;
+        font-weight: 400;
+    }
+
+    .Newsletter-Email {
+        border-bottom: 2px solid #fff ;
+        margin-top: 10px;
+      
+    }

@@ -1,0 +1,64 @@
+.Veriety h5 {
+    font-family: Segoe UI sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 115%;
+    /* or 28px */
+    text-align: start;
+    color: #263788;
+}
+
+.Veriety p {
+    font-family: Segoe UI sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 112%;
+    /* or 28px */
+    color: #4b5581;
+    padding-bottom: 0px; margin-top: 3px;
+}
+.Quality-Service h5 {
+    font-family: Segoe UI sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 115%;
+    /* or 28px */
+    text-align: start;
+    color: #263788;
+}
+.Quality-Service p {
+    font-family: Segoe UI sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 115%;
+    /* or 28px */
+    text-align: start;
+    color: #4b5581;
+}
+.Quality-Service h5:hover{
+    color: #2db7ff;
+    cursor: pointer;
+}
+.Quality-Icon {
+font-size: 60px;
+background-color: #2db7ff;
+color:#263788;
+border-radius: 50%;
+padding: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 680px) {
+
+    .Quality-Service h5 {
+        font-size: 23px;
+
+    }
+    .Veriety h5 {
+        font-size: 28px;
+      
+    }
+
+}
+.Galley-Card-Slide{
+border: 0px;
+}

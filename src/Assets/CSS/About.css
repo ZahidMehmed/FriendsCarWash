@@ -1,0 +1,75 @@
+.mission-image {
+    width: 40% ;
+    /* height: 10rem; */
+    border-radius: 10px;
+}
+.inspire-image{
+    width: 40% ;
+    /* height: 10rem; */
+    border-radius: 10px;
+}
+.Mission-icon{
+    font-size: 70px;
+   background-color:  #2db7ff;
+    padding: 5px;
+    color: #263788;
+   
+    border-radius: 50%;
+}
+.Mission h5 {
+    font-family: Segoe UI sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 175%;
+    /* or 28px */
+    padding-left: 4px;
+    text-align: start;
+    color:  #263788;
+}
+.list-inline{
+    font-family: Segoe UI sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 155%;
+    /* or 28px */
+    color: #4b5581;
+}
+.Mission p {
+    font-family: Segoe UI sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    /* or 28px */
+
+    color: #4b5581; 
+}
+.fs-5{
+    font-family: Segoe UI sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 125%;
+    /* or 28px */
+
+    color:#263788 
+}
+
+.Team-Card{
+border: none;
+}
+
+.Team-Card h5{
+    font-family: Segoe UI sans-serif;
+    font-weight: 600;
+ margin-bottom: 0px;
+ margin-top: -5px;
+ color:#263788 ;
+ font-size: 22px;
+    }
+    .Team-Card p{
+        font-family: Segoe UI sans-serif;
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: -6px;
+        color: #2db7ff;
+        font-size: 18px;
+           }

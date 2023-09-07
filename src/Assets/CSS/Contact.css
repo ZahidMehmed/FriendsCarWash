@@ -1,0 +1,77 @@
+.Contact-Background {
+    background-color: #e7edfd;
+}
+.Contact-Card h5{
+    font-family: Segoe UI sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 175%;
+    /* or 28px */
+    padding-left: 4px;
+    text-align: start;
+    color: #2db7ff;
+}
+
+.Contact-Card p{
+    font-family: Segoe UI sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    /* or 28px */
+    padding-left: 4px;
+    text-align: start;
+    color: #62718d
+}
+.Message label{
+    font-family: Segoe UI sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* or 28px */
+    text-align: start;
+    color: #263788;
+}
+
+.Message input{
+   border-radius: 20px;
+}
+.Message textarea{
+    border-radius: 30px;
+}
+.Msg-Button{
+    border: 2px solid  #2db7ff ;
+    background-color: #2db7ff;
+    font-family: Segoe UI sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+color: #fff; 
+border-radius: 50px;
+}
+.Msg-Button:hover{
+    background: none;  
+    color: #2db7ff;
+    border: 2px solid  #2db7ff ;
+}
+.Message h5{
+    font-family: Segoe UI sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 115%;
+    /* or 28px */
+    text-align: start;
+    color: #263788;
+}
+.check-icon{
+    color: green;
+    font-size: 30px;
+    font-weight: 800;
+}
+.check-form p{
+    font-family: Segoe UI sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 115%;
+    /* or 28px */
+    text-align: start;
+    color: #263788;  
+}

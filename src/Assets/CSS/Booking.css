@@ -1,0 +1,58 @@
+.Form-Heading{
+    color: #263788;
+    font-family: Segoe UI sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 114%;
+    text-align: start;
+    /* or 28px */
+    text-align: start;
+}
+.Form-Paragraph{
+    color: #4b5581;
+    font-family: Segoe UI sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 114%;
+    text-align: start;
+    /* or 28px */
+    text-align: start;
+}
+
+.Booking-Form{
+    background-color: #9da2ba;;
+}
+.my-Booking-Form{
+    background-color: #fff;
+    box-shadow: 10px 10px 50px rgb(73, 72, 72);
+    border-radius: 10px;
+}
+
+.my-Booking-Form label {
+    color: #263788;
+    font-family: Segoe UI sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 114%;
+    text-align: start;
+    /* or 28px */
+    text-align: start;
+}
+
+.my-Booking-Form option, select, input, textarea{
+    color: #4b5581;
+    font-family: Segoe UI sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 114%;
+   
+}
+input{
+    border-radius: 0px;
+}
+.warning{
+    font-family: Segoe UI sans-serif;
+    font-weight: 600; 
+    color: rgb(214, 20, 20);
+}
+
