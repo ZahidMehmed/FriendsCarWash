@@ -16,10 +16,10 @@ function App() {
   return (
     <div>
       Zahid
-      {/* <Navbar /> */}
-      {/* <HomeSlider /> */}
+      <Navbar />
+      <HomeSlider />
       <Routes  >
-        {/* <Route path='/' element ={<Home />} /> */}
+        <Route path='/' element ={<Home />} />
         {/* <Route path='/Services' element ={<Services />} />
         <Route path='/About' element ={<About />} />
         <Route path='/Contact' element ={<Contact />} />
