@@ -15,9 +15,8 @@ import Gallery from './Pages/Gallery';
 function App() {
   return (
     <div>
-      Zahid
       <Navbar />
-      <HomeSlider />
+      {/* <HomeSlider /> */}
       <Routes  >
         <Route path='/' element ={<Home />} />
         {/* <Route path='/Services' element ={<Services />} />
