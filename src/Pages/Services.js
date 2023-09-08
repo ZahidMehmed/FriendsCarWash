@@ -18,7 +18,6 @@ const Services = () => {
     <section>
     <Top Main Main_Title ="Services" Small_title ="Services" />
     <HomeAbout />
-
     <div className='container'>
       <div className='row pt-5 text-center justify-content-center' >
       <Heading Small_Title ="We Care Your Car" Large_Title ="Services We Provide"
@@ -31,7 +30,6 @@ const Services = () => {
     </div>
   <GallerySlider />
   <Contact_Information />
-  {/* <ServiceVeriety /> */}
   <Quality />
     </section>
 
