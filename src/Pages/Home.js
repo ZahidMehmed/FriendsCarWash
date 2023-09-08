@@ -20,7 +20,7 @@ const Home = () => {
     <>
     <HomeSlider />
     <HomeAbout />
-    <Cursol />
+    {/* <Cursol />
     <Achievements />
     <ExperienceDetail />
     <PricingPlan />
@@ -28,7 +28,7 @@ const Home = () => {
     <WorkProcess />
     <GallerySlider />
     <Reviews />
-    <Booking />
+    <Booking /> */}
    
     </>
     
