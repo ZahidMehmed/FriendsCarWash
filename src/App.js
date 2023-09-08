@@ -23,7 +23,7 @@ function App() {
         <Route path='/Booking' element ={<Booking />} />
         <Route path='/Gallery' element ={<Gallery />} />
       </Routes>
-     {/* <Bottom /> */}
+     <Bottom />
     </div>
   );
 }
