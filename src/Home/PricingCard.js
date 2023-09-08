@@ -1,9 +1,7 @@
 import React from 'react'
-import { Fade } from 'react-reveal';
 import { NavLink } from 'react-router-dom';
 const PricingCard = (props) => {
   return (
-    <Fade duration ={2000} bottom >
     <div className='col-xl-3 col-lg-5 col-md-5 col-sm-11 col-11 mt-3'>
       <div className="card text-center" >
         <div className="card-body Pricing-Card">
@@ -24,7 +22,6 @@ const PricingCard = (props) => {
         </div>
       </div>
     </div>
-    </Fade>
   )
 }
 

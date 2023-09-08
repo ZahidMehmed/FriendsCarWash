@@ -6,7 +6,6 @@ import Member1 from '../Assets/Images/Member1.jpg'
 import Member2 from '../Assets/Images/Member2.jpg'
 import Member3 from '../Assets/Images/Member3.jpg'
 import Member4 from '../Assets/Images/Member4.jpg'
-import { Fade } from 'react-reveal';
 const Team = () => {
     var settings = {
         dots: true,
@@ -55,7 +54,6 @@ const Team = () => {
                     />
                 </div>
                 <div className='row justify-content-center text-center'>
-                  <Fade duration ={2000} bottom>
                     <div className='col-lg-12 col-8 col-sm-10'>
                 <Slider {...settings}>    
                 <TeamMemberCard 
@@ -75,7 +73,7 @@ const Team = () => {
                 Position ="Owner/Operetor"
                 />
                </Slider>
-               </div></Fade>
+               </div>
                 </div>
             </div>
         </>

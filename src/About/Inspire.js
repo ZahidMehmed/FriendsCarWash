@@ -1,13 +1,11 @@
 import React from 'react'
 import { BsAwardFill } from 'react-icons/bs';
 import Profile2 from '../Assets/Images/Inspire.jpg'
-
 import '../Assets/CSS/About.css'
-import { Fade } from 'react-reveal';
 const Inspire = () => {
   return (
    <>
-  <Fade duration ={2000} bottom>
+
    <div className='col-lg-8 col-md-10 col-sm-11 col-11 mt-md-4 Mission '>
                 <div>
                     <BsAwardFill className='Mission-icon' />
@@ -29,7 +27,6 @@ const Inspire = () => {
                     </div>
                 </div>
             </div>
-            </Fade>
    </>
   )
 }

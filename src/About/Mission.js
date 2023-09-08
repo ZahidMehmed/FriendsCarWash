@@ -3,11 +3,9 @@ import { GiThumbUp } from 'react-icons/gi';
 import Profile2 from '../Assets/Images/Miss.jpg'
 import '../Assets/CSS/About.css'
 import { BsCheck2Circle } from 'react-icons/bs';
-import { Fade } from 'react-reveal';
 const Mission = () => {
     return (
         <>
-            <Fade duration={2000} bottom>
                 <div className='col-lg-8 col-md-10 col-sm-11 col-11 mt-4 Mission '>
                     <div>
                         <GiThumbUp className='Mission-icon' />
@@ -37,7 +35,6 @@ const Mission = () => {
                         </div>
                     </div>
                 </div>
-            </Fade>
         </>
     )
 }

@@ -1,18 +1,13 @@
 import React from 'react'
 import { BsCheck2Circle} from 'react-icons/bs';
 import { RiCarWashingLine} from 'react-icons/ri';
-import { Fade } from 'react-reveal';
-import Cardimage from '../Assets/Images/Cardimage.jpg'
 const CursolComponents = (props) => {
   return (
    <>
- 
       <div className='col-xl-3 col-lg-5 col-md-5 col-sm-11 col-11 mt-5 mb-5'>
-      <Fade duration={2000} bottom >
         <div className='Top-Icon ms-4 d-flex align-items-center justify-content-center'> <RiCarWashingLine  /></div>
         <div className="card carosel-card" >
         <img src ={props.img} alt ="" class="card-img-top " style={{height: '15rem'}}/>
-       
            <div className='overlay' >
             <div className='ms-2'>
             <h5 className="card-title pt-3"> {props.Title} </h5>
@@ -29,7 +24,6 @@ const CursolComponents = (props) => {
               </div>
               </div>
         </div>
-        </Fade>
       </div>
     
    </>

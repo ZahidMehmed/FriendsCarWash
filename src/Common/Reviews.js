@@ -5,7 +5,6 @@ import ReviewsComponent from './ReviewsComponent';
 import profile1 from '../Assets/Images/Profile1.jpg'
 import Profile2 from '../Assets/Images/Profile2.jpg'
 import Profile3 from '../Assets/Images/Profile3.jpg'
-import Fade from 'react-reveal/Fade';
 const contentStyle = {
   height: '160px',
   color: '#fff',
@@ -22,7 +21,6 @@ const Reviews = () => (
 </div>
 <div className='container'>
 <div className='row justify-content-center'>
-  <Fade duration ={2000} bottom>
   <div className=' col-lg-8 col-md-10 col-sm-12 col-12 pt-3'>
   <Carousel className='' autoplay>
     <div style={contentStyle}>
@@ -36,7 +34,6 @@ const Reviews = () => (
     </div>   
   </Carousel>
   </div>
-  </Fade>
   </div>
   </div>
   </>

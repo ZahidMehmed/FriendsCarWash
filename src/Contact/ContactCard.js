@@ -1,12 +1,9 @@
 import React from 'react'
 import { useState } from 'react';
-import { Fade } from 'react-reveal';
-
 const ContactCard = (props) => {
   
   return (
     <>
-      <Fade duration={2000} bottom>
         <div className='col-lg-3 col-md-3 col-sm-10 col-10 mt-3 '>
           <div className="card" >
             <div className="card-body">
@@ -16,7 +13,6 @@ const ContactCard = (props) => {
             </div>
           </div>
         </div>
-      </Fade>
     </>
   )
 }

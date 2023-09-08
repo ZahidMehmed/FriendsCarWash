@@ -1,6 +1,5 @@
 import React from 'react'
 import { BiSprayCan } from 'react-icons/bi';
-import Fade from 'react-reveal/Flip';
 const HomeServiceCard = (props) => {
   return (
       <div className='col-lg-3 col-md-5 col-sm-12 col-10 mt-3 d-flex justify-content-start '>

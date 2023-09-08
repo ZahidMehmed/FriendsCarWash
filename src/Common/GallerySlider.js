@@ -5,7 +5,6 @@ import Interier2 from '../Assets/Images/Interier2.jpg'
 import Interier3 from '../Assets/Images/Interier3.jpg'
 import Interier4 from '../Assets/Images/Interier4.png'
 import Interier5 from '../Assets/Images/Interier5.png'
-import Fade from 'react-reveal/Fade';
 const App = () => {
     var settings = {
         dots: true,
@@ -42,7 +41,6 @@ const App = () => {
         ]
       };
 return (
-  <Fade duration={1000} bottom>
    <div className='container-fluid'>
     <div className='row pt-5 pb-2 justify-content-center Gallery-Heading'>
         <div className='col-lg-11 col-md-11 col-sm-11 col-11'>
@@ -60,7 +58,6 @@ return (
     </div>
     </div>
     </div>
-    </Fade>
 
 )};
 export default App;
