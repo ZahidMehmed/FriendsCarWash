@@ -9,14 +9,12 @@ import "slick-carousel/slick/slick-theme.css";
 import Services from './Pages/Services';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
-import Bottom from './Common/Bottom';
 import Booking from './Pages/Booking';
 import Gallery from './Pages/Gallery';
 function App() {
   return (
     <div>
       <Navbar />
-      {/* <HomeSlider /> */}
       <Routes  >
         <Route path='/' element ={<Home />} />
         <Route path='/Services' element ={<Services />} />
