@@ -18,9 +18,9 @@ const Home = () => {
  }, [])
   return (
     <>
-    {/* <HomeSlider />
-    <HomeAbout /> */}
-    {/* <Cursol />
+    <HomeSlider />
+    <HomeAbout />
+    <Cursol />
     <Achievements />
     <ExperienceDetail />
     <PricingPlan />
@@ -28,7 +28,7 @@ const Home = () => {
     <WorkProcess />
     <GallerySlider />
     <Reviews />
-    <Booking /> */}
+    <Booking />
    
     </>
     
