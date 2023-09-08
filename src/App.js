@@ -19,11 +19,11 @@ function App() {
       {/* <HomeSlider /> */}
       <Routes  >
         <Route path='/' element ={<Home />} />
-        {/* <Route path='/Services' element ={<Services />} />
+        <Route path='/Services' element ={<Services />} />
         <Route path='/About' element ={<About />} />
         <Route path='/Contact' element ={<Contact />} />
         <Route path='/Booking' element ={<Booking />} />
-        <Route path='/Gallery' element ={<Gallery />} /> */}
+        <Route path='/Gallery' element ={<Gallery />} />
       </Routes>
      {/* <Bottom /> */}
     </div>
