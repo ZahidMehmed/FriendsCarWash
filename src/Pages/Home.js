@@ -18,8 +18,8 @@ const Home = () => {
  }, [])
   return (
     <>
-    <HomeSlider />
-    <HomeAbout />
+    {/* <HomeSlider />
+    <HomeAbout /> */}
     {/* <Cursol />
     <Achievements />
     <ExperienceDetail />

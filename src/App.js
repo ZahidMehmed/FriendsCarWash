@@ -15,17 +15,18 @@ import Gallery from './Pages/Gallery';
 function App() {
   return (
     <div>
-      <Navbar />
+      Zahid
+      {/* <Navbar /> */}
       {/* <HomeSlider /> */}
       <Routes  >
-        <Route path='/' element ={<Home />} />
+        {/* <Route path='/' element ={<Home />} /> */}
         {/* <Route path='/Services' element ={<Services />} />
         <Route path='/About' element ={<About />} />
         <Route path='/Contact' element ={<Contact />} />
         <Route path='/Booking' element ={<Booking />} />
         <Route path='/Gallery' element ={<Gallery />} /> */}
       </Routes>
-     <Bottom />
+     {/* <Bottom /> */}
     </div>
   );
 }
