@@ -18,7 +18,7 @@ const Inspire = () => {
                          experience for both our new customers and our carwash members.
                          It’s not just part of our culture, it is our culture by listening
                           to you and applying the principles.</p>
-                        <ul class=" ms-3 text-start list-inline">
+                        <ul className=" ms-3 text-start list-inline">
                             <li className="list-inline">   
                                 <h6 className='fs-5' >Our Purpose:</h6> Use all senses and take action </li>
                             <li className="list-inline">                               

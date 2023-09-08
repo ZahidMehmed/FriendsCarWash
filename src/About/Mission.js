@@ -18,18 +18,18 @@ const Mission = () => {
                                 More like it was the first of its kind in the state, serving customers
                                 looking for a high quality car wash. a reasonable price,
                                 with friendly relationship.</p>
-                            <ul class=" ms-2 text-start list-inline">
+                            <ul className=" ms-2 text-start list-inline">
                                 <li className="list-inline">
-                                    <span><BsCheck2Circle class='card-list-icons me-2' /></span>
+                                    <span><BsCheck2Circle className='card-list-icons me-2' /></span>
                                     <span className='fs-5' >Safety:</span> Use all senses and take action </li>
                                 <li className="list-inline">
-                                    <span><BsCheck2Circle class='card-list-icons me-2' /></span>
+                                    <span><BsCheck2Circle className='card-list-icons me-2' /></span>
                                     <span className='fs-5' >Integirity:</span> Stay honest; do what’s right</li>
                                 <li className="list-inline">
-                                    <span><BsCheck2Circle class='card-list-icons me-2' /></span>
+                                    <span><BsCheck2Circle className='card-list-icons me-2' /></span>
                                     <span className='fs-5'  >Fun:</span>  Connect, compete, and laugh</li>
                                 <li className="list-inline">
-                                    <span><BsCheck2Circle class='card-list-icons me-2' /></span>
+                                    <span><BsCheck2Circle className='card-list-icons me-2' /></span>
                                     <span className='fs-5' >Team Work:</span> Help others before they ask any help to us. </li>
                             </ul>
                         </div>

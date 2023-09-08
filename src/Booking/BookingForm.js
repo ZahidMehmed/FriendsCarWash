@@ -82,8 +82,8 @@ const BookingForm = () => {
             <Heading Large_Title ="Booking For Services" Small_Title ="Book Here" />
           </div>
           <div className='row'>
-          <div class="mb-3 mt-3">
-            <label for="sel1" className="form-label">
+          <div className="mb-3 mt-3">
+            <label htmlFor="sel1" className="form-label">
               <BookingHeading Title ="Vehicle Type" Statement ="Select your vehicle type" />
             </label>
             <select className="form-control form-select" id="sel1" name="vehicleSlection"
@@ -102,9 +102,9 @@ const BookingForm = () => {
                   </p> : null
               }
             </div> 
-            <div class="mb-3 mt-3">
-            <label for="sel1" className="form-label">
-            <BookingHeading Title ="Wash Package" Statement ="Which is the best wash package for your vehicle?" />
+            <div className="mb-3 mt-3">
+            <label htmlFor="sel1" className="form-label">
+            <BookingHeading Title ="Wash Package" Statement ="Which is the best wash package htmlFor your vehicle?" />
             </label>
             <select className=" form-control form-select" id="sel1" name="packageSelection"
                 {...formik.getFieldProps('packageSelection')}
@@ -122,9 +122,9 @@ const BookingForm = () => {
               }
             </div>
 
-            <div class="mb-3 mt-3">
+            <div className="mb-3 mt-3">
             <label htmlFor="sel1" className="form-label">
-            <BookingHeading Title ="Extra Services" Statement ="Choose the extra value added services for your vehicle" />
+            <BookingHeading Title ="Extra Services" Statement ="Choose the extra value added services htmlFor your vehicle" />
             </label>
             <select className=" form-control form-select" id="sel1" name="extraSelection"
              {...formik.getFieldProps('extraSelection')}
@@ -145,9 +145,9 @@ const BookingForm = () => {
           <div className='row pt-5 '>
           <BookingHeading Title ="Appointment Details" Statement ="When would you like us to come?" />        
             <div className='col-lg-6 col-11'> 
-              <div class="mb-3 mt-3">
-                <label htmlFor="email" class="form-label">Date:</label>
-                <input type="date" class="form-control" id="date" name="date" 
+              <div className="mb-3 mt-3">
+                <label htmlFor="email" className="form-label">Date:</label>
+                <input type="date" className="form-control" id="date" name="date" 
                    {...formik.getFieldProps('date')}
                 />
                   {
@@ -159,9 +159,9 @@ const BookingForm = () => {
             
             </div>
             <div className='col-lg-6  col-11'>
-              <div class="mb-3 mt-3">
-                <label htmlFor="time" class="form-label">Time</label>
-                <input type="time" class="form-control" id="date" placeholder="Enter email" name="time" 
+              <div className="mb-3 mt-3">
+                <label htmlFor="time" className="form-label">Time</label>
+                <input type="time" className="form-control" id="date" placeholder="Enter email" name="time" 
                  {...formik.getFieldProps('time')}
                />
                 {
@@ -176,8 +176,8 @@ const BookingForm = () => {
           <div className='row pt-5'>
           <BookingHeading Title ="Enter Your Details" Statement ="See Duration and Price Estimate here" />        
             <div className='col-lg-6 col-11'>
-            <div class="mb-3 mt-3">   
-                <input type="text" class="form-control" id="fName" placeholder='First Name'  name="fName" 
+            <div className="mb-3 mt-3">   
+                <input type="text" className="form-control" id="fName" placeholder='First Name'  name="fName" 
                    {...formik.getFieldProps('fName')}
                 />
              {
@@ -188,8 +188,8 @@ const BookingForm = () => {
               </div>
             </div>
             <div className='col-lg-6 col-11'>
-            <div class="mb-3 mt-3">
-                <input type="text" class="form-control" id="lName" placeholder='Last Name'  name="lName"
+            <div className="mb-3 mt-3">
+                <input type="text" className="form-control" id="lName" placeholder='Last Name'  name="lName"
                    {...formik.getFieldProps('lName')}
                 />
                   {
@@ -202,8 +202,8 @@ const BookingForm = () => {
           </div>
           <div className='row '>
             <div className='col-lg-6 col-11 '>
-            <div class="mb-3 mt-3">
-                <input type="email" class="form-control" id="email" placeholder='Email Address'  name="email"
+            <div className="mb-3 mt-3">
+                <input type="email" className="form-control" id="email" placeholder='Email Address'  name="email"
                  {...formik.getFieldProps('email')}
                 />
                    {
@@ -214,8 +214,8 @@ const BookingForm = () => {
               </div>
             </div>
             <div className='col-lg-6 col-11'>
-            <div class="mb-3 mt-3">
-                <input type="text" class="form-control" id="contact" placeholder='Phone Number' name="contact"
+            <div className="mb-3 mt-3">
+                <input type="text" className="form-control" id="contact" placeholder='Phone Number' name="contact"
                 {...formik.getFieldProps('contact')}
                 />
                 {
@@ -229,8 +229,8 @@ const BookingForm = () => {
 
           <div className='row '>
             <div className='col-lg-4 col-11'>
-            <div class="mb-3 mt-3">
-                <input type="text" class="form-control" id="make" placeholder='Make'   name="make" 
+            <div className="mb-3 mt-3">
+                <input type="text" className="form-control" id="make" placeholder='Make'   name="make" 
                    {...formik.getFieldProps('make')}
                 />
                 {
@@ -241,8 +241,8 @@ const BookingForm = () => {
               </div>
             </div>
             <div className='col-lg-4 col-11'>
-            <div class="mb-3 mt-3">
-                <input type="text" class="form-control" id="model" placeholder='Model'  name="model" 
+            <div className="mb-3 mt-3">
+                <input type="text" className="form-control" id="model" placeholder='Model'  name="model" 
                     {...formik.getFieldProps('model')}
                     />
                     {
@@ -253,8 +253,8 @@ const BookingForm = () => {
               </div>
             </div>
             <div className='col-lg-4 col-11'>
-               <div class="mb-3 mt-3">
-                <input type="text" class="form-control" id="year" placeholder='Year'   name="year"  
+               <div className="mb-3 mt-3">
+                <input type="text" className="form-control" id="year" placeholder='Year'   name="year"  
                   {...formik.getFieldProps('year')}
                   />
                   {
@@ -267,7 +267,7 @@ const BookingForm = () => {
           </div>
           <div className='row justify-content-center'>
           <div className="mb-3 pt-3">
-              <textarea class="form-control mt-3" rows="5" cols="50" name='requirements' placeholder="Wirte Additional Requirements" id="floatingTextarea"
+              <textarea className="form-control mt-3" rows="5" cols="50" name='requirements' placeholder="Wirte Additional Requirements" id="floatingTextarea"
                {...formik.getFieldProps('requirements')}
               >
 

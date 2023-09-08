@@ -9,7 +9,7 @@ const PricingCard = (props) => {
           <h5 className="card-title"><sup>$</sup> {props.Package_Ammount} <sup>99</sup></h5>
           <p>{props.Time_Duration}</p>
           <hr />
-          <ul class="  text-start list-inline">
+          <ul className="text-start list-inline">
           <li className="list-inline"> {props.iconList}</li> 
            <li className="list-inline">{props.iconList1}</li>
            <li className="list-inline">{props.iconList2} </li>
