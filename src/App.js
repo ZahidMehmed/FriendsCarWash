@@ -11,6 +11,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Booking from './Pages/Booking';
 import Gallery from './Pages/Gallery';
+import Bottom from './Common/Bottom'
 function App() {
   return (
     <div>
@@ -23,7 +24,7 @@ function App() {
         <Route path='/Booking' element ={<Booking />} />
         <Route path='/Gallery' element ={<Gallery />} />
       </Routes>
-     <Bottom />
+     <Bottom/>
     </div>
   );
 }
