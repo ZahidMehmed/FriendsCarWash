@@ -40,9 +40,9 @@ const Bottom = () => {
                     <div className='row justify-content-around footer-content'>
                         <div className='col-lg-3 col-md-4 col-sm-10 col-10 mt-5 '>
                             <h5>Our Address</h5>
-                            <p  className='mt-3' >Level 13, 2 Elizabeth St,
-                                Melbourne, Victoria 3000,
-                                Australia</p>
+                            <p  className='mt-3' >H9 13, 2 Elizabeth St,
+                                Islamaabad, Block A, Street 3,
+                                </p>
                         </div>
                         <div className='col-lg-3 col-md-4 col-sm-10 col-10 mt-5  Hours-Time'>
                             <h5>Opening Hours</h5>
